@@ -29,3 +29,9 @@
 
 6. Что такое успешно выполненный заказ?
     Это заказ со статусом Closed
+
+Используемые поля для построения витрины:
+    1. Users.id, Users.Name 
+    2. Orders.order_id, Orders.order_ts, Orders.status, Orders.user_id, Orders.Payment
+    3. orderstatuses.id, orderstatuses.key
+    4. orderstatuslog.order_id, orderstatuslog.status_id
