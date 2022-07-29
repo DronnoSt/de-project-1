@@ -44,7 +44,7 @@ from production.orderstatuslog;
 CREATE OR REPLACE VIEW analysis.orderstatuses AS 
 select  id,
         key
-from production.orderstatuses;
+from production.orderstatuses; 
 
 
 
